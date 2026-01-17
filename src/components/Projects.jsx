@@ -31,18 +31,18 @@ export default function Projects() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
-          className="bg-neutral-50 border-2 border-black p-10 md:p-12 transition-all duration-300"
+          className="bg-neutral-50 border-2 border-black p-6 md:p-12 transition-all duration-300"
         >
-          <div className="flex items-start justify-between mb-6">
+          <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-6">
             <div>
-              <h3 className="text-2xl md:text-3xl font-bold text-black mb-2">
+              <h3 className="text-xl md:text-3xl font-bold text-black mb-2">
                 GTS Mobile Application
               </h3>
-              <p className="text-sm md:text-base text-black/60 uppercase tracking-wider">
+              <p className="text-xs md:text-base text-black/60 uppercase tracking-wider">
                 Gas Transportation System
               </p>
             </div>
-            <div className="px-4 py-2 bg-black text-white text-xs uppercase tracking-wider font-semibold">
+            <div className="px-3 py-1.5 md:px-4 md:py-2 bg-black text-white text-xs uppercase tracking-wider font-semibold self-start">
               Production
             </div>
           </div>
