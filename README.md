@@ -13,8 +13,6 @@ The design of the portfolio is intended to be clean, fast, and flexible with a e
 - Project showcase
 - Contact section
 
----
-
 ## 🛠️ Tech Stack
 
 - **Next.js** (App Router)
