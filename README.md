@@ -20,5 +20,3 @@ The design of the portfolio is intended to be clean, fast, and flexible with a e
 - **Tailwind CSS**
 - **JavaScript**
 - **Vercel** (deployment)
-
----
