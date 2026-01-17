@@ -1,6 +1,5 @@
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import BackToTop from "@/components/BackToTop";
 
 export const metadata = {
   title: "Taksh Shah | Portfolio",
@@ -13,7 +12,6 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         {children}
-        <BackToTop />
       </body>
     </html>
   );
